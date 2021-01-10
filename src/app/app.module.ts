@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PremierComponent } from './premier/premier.component';
+import { DexiemeComponent } from './dexieme/dexieme.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PremierComponent
+    PremierComponent,
+    DexiemeComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
